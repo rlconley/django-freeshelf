@@ -14,8 +14,8 @@ This week, you are building a Django application to collect an index of free pro
 
 Your first goal should be creating a Book model and showing an index of all books. Some details:
 
-- Books have, at a minimum, a title, author, description, URL, slug, and date added to the database.
-- Book URLs should be unique.
+- Books have, at a minimum, a title, author, description, URL, and date added to the database.
+- Book URLs (the URL field in the database) should be unique.
 - Admins can add, edit, and delete books.
 - You should have initial data for books (a CSV is provided, but you can edit it to fit your data).
 - Books should be in order with the most recently added at the top.
